@@ -161,4 +161,6 @@ All measures were built inside a dedicated **KPIs measures** table to keep the d
 
 ## 📸 Visuals
 
-> *(Add screenshots of your dashboard pages here)*
+![Dashboard](screenshot%201.png)
+![Overview](screenshot%202.png)
+![Detail](screenshot%203.png)
