@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Tools Used](#tools-used)
@@ -14,12 +14,10 @@
 - [Dashboard Pages](#dashboard-pages)
 - [Key Insights](#key-insights)
 - [Visuals](#visuals)
-- [How to Use](#how-to-use)
-- [Connect With Me](#connect-with-me)
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 This project is a full end-to-end Power BI dashboard analyzing **5,216 recorded airplane crashes** spanning over a century of aviation history. The goal was to go beyond surface-level crash counts and dig into fatality patterns, operator accountability, aircraft type risk, and time-of-day crash behavior.
 
@@ -30,7 +28,7 @@ The dashboard is structured across **3 pages**:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 | Field | Description |
 |---|---|
@@ -52,7 +50,7 @@ The dashboard is structured across **3 pages**:
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - **Power BI Desktop** — Dashboard building and DAX measures
 - **Power Query** — Data transformation and country extraction
@@ -61,7 +59,7 @@ The dashboard is structured across **3 pages**:
 
 ---
 
-## 🔧 Data Preparation
+##  Data Preparation
 
 ### Steps taken:
 1. **Loaded raw CSV** into Power BI via Get Data
@@ -83,7 +81,7 @@ SWITCH(TRUE(),
 
 ---
 
-## 📊 KPI Measures
+##  KPI Measures
 
 All measures were built inside a dedicated **KPIs measures** table to keep the data model clean.
 
@@ -101,7 +99,7 @@ All measures were built inside a dedicated **KPIs measures** table to keep the d
 
 ---
 
-## 📋 Dashboard Pages
+##  Dashboard Pages
 
 ### Page 1 — Dashboard
 > High-level summary for quick decision-making
@@ -132,34 +130,34 @@ All measures were built inside a dedicated **KPIs measures** table to keep the d
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
-### 🔴 Fatality & Survival
+###  Fatality & Survival
 - Out of every **10 people** on a crashed plane, **7 died and only 3 survived**
 - **27% survival rate** across 100+ years of aviation history
 - Average crash had **28 people aboard** with **20 fatalities**
 
-### 🛩️ Operator Accountability
+###  Operator Accountability
 - **Aeroflot** is the deadliest operator with **7,200 fatalities** — more than double the next highest
 - **Military - U.S. Air Force** comes second with **3,700 fatalities**
 - **Air France, American Airlines, and Pan American World Airways** round out the top 5
 
-### ✈️ Aircraft Type
+###  Aircraft Type
 - **Douglas DC-3** is the deadliest aircraft type with **331 crashes** — nearly 4x the next aircraft
 - 7 of the top 10 deadliest aircraft are Douglas variants, suggesting era-specific risk concentration
 
-### 🕐 Time of Day
+###  Time of Day
 - **Morning (31.2%) and Afternoon (31.0%)** together account for **62% of all crashes**
 - Night crashes (26.2%) and Midnight (11.6%) are lower but still significant
 
-### 🌍 Ground Impact
+###  Ground Impact
 - **219 out of 5,216 crashes** also killed people on the ground
 - **8,440 ground fatalities** — deaths of people who never boarded a plane
 - This represents roughly **1 in 24 crashes** having ground casualties
 
 ---
 
-## 📸 Visuals
+##  Visuals
 
 ![Dashboard](screenshot%201.png)
 ![Overview](screenshot%202.png)
